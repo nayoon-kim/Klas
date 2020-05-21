@@ -15,9 +15,9 @@ public class TakesDAO {
     public TakesDAO() {
         try {
             //»ý¼ºÀÚ
-            /*String dbURL="jdbc:mysql://localhost:3306/tempdb?serverTimezone=UTC";                             
+            /*String dbURL="jdbc:mysql://localhost:3306/test_schema?serverTimezone=UTC";                             
             String dbID="root";
-            String dbPassword="system";
+            String dbPassword="1234";
             
             Class.forName("com.mysql.jdbc.Driver");*/
             conn= DatabaseUtil.getConnection();
